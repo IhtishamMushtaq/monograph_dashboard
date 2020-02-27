@@ -1,0 +1,168 @@
+* {
+    margin-left: 5px;
+    margin-top: 5px;    
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow Condensed', ;
+    overflow-x: hidden;
+    margin-bottom: 10px;;
+}
+
+.logo {
+    width: 0.6cm;
+}
+.menu {
+    float: right;
+    width: 0.6cm;
+}
+.menu1{
+    float: right;
+    width: 0.6cm;
+    background: none;
+    border: none;  
+}
+.hero {
+    padding-top: 1cm;
+   width: 100%;
+   padding-bottom: 1cm;
+}
+.button1 {
+    width: 1.2cm;
+    border-radius: 13px;
+    color: white;
+    background-color: black;
+    border-style: none;
+    font-weight: bold;
+    font-size: small;
+    padding-top: 3px;
+    padding-bottom: 3px;
+} 
+.mono {
+    color: grey;
+    display: inline;
+    width: 60%;
+    font-size: small;
+    padding-left: 4px;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+    font-weight: lighter;
+    margin-left: 30px;
+}
+.preview {
+    display: inline;
+    font-weight: lighter;
+    font-size: small;
+    letter-spacing: 1.5px;
+    color: grey;
+}
+.powerful {
+    font-weight: 700;
+    letter-spacing: normal;
+    font-size: 25px;
+}
+.btngrp {
+    display: none;
+    position: absolute;
+    background-color: white;
+}
+.btngrp li {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+}
+/* .btngrp li:hover {background-color: #ddd;} 
+  
+ .navbar:hover .btngrp {display: block;} 
+  
+ .navbar:hover .menu {background-color: white;} */
+.plan {
+    color: grey ;
+    font-size: 18px;
+    font-weight: condensed;
+    letter-spacing: 1px;
+}
+    
+.button2 {
+    padding: 10px 8px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: hsl(0, 100%, 68%);
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+
+}
+.image {
+   
+    overflow: hidden;
+    object-fit: cover;
+    position: -50%;
+}
+.hero {
+    
+    max-width: initial;
+    text-indent: -500px;
+    object-fit: cover;
+    margin-left: 50px;
+    position: -50% -50%px;
+}
+@media (min-width:1024px) {
+   * {
+       margin-left: 0.5cm;
+       overflow-y: hidden;
+   }
+    .low {
+        width: 60%;
+        margin-top: 1.6cm;     
+    }
+    .image {
+        width: 50%;
+        float: right;
+    object-fit: cover;
+    object-position: -12px 0px;
+    margin-right: -100px;
+    height: 517px;
+    width: 900px;
+    }        
+    .total {
+        display: flex;
+        flex-direction: row-reverse;
+        
+    }
+    .button1{
+        width: 1.5cm;
+    }
+    .mono {
+        font-size: 15px;
+    }
+    .powerful {
+        font-weight: 800 bolder;
+        letter-spacing: normal;
+        font-size:xx-large;
+    }
+    .plan {
+        width: 80%;
+        margin-bottom: 1cm;
+    }
+    .button2 {
+        padding: 15px 16px;
+        font-size: 12px;
+        letter-spacing: 2px;
+
+    }
+    .preview {
+        letter-spacing: 2px;
+        font-size: 15px;
+    
+    }
+    .logo {
+        margin-left: 1.8cm;
+        margin-top: 1cm;
+    }
+    .menu {
+        margin-top: 1cm;
+        
+    }
+
+
+}
