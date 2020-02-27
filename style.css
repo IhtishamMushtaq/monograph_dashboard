@@ -166,3 +166,63 @@
 
 
 }
+@media (min-width:768px) {
+    * {
+        margin-left: 0.5cm;
+        overflow-y: hidden;
+    }
+     .low {
+         width: 60%;
+         margin-top: 1.6cm;     
+     }
+     .image {
+         width: 50%;
+         float: right;
+     object-fit: cover;
+     object-position: -12px 0px;
+     margin-right: -100px;
+     height: 517px;
+     width: 900px;
+     }        
+     .total {
+         display: flex;
+         flex-direction: row-reverse;
+         
+     }
+     .button1{
+         width: 1.5cm;
+     }
+     .mono {
+         font-size: 15px;
+     }
+     .powerful {
+         font-weight: 800 bolder;
+         letter-spacing: normal;
+         font-size:xx-large;
+     }
+     .plan {
+         width: 80%;
+         margin-bottom: 1cm;
+     }
+     .button2 {
+         padding: 15px 16px;
+         font-size: 12px;
+         letter-spacing: 2px;
+ 
+     }
+     .preview {
+         letter-spacing: 2px;
+         font-size: 15px;
+     
+     }
+     .logo {
+         margin-left: 1.8cm;
+         margin-top: 1cm;
+     }
+     .menu {
+         margin-top: 1cm;
+         
+     }
+ 
+ 
+ }
